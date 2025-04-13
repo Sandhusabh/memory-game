@@ -5,7 +5,7 @@ const ImageCard = ({ imageUrl, title }) => (
   <div className="card-container">
     <Card
         hoverable
-        style={{ maxWidth: 240, maxHeight: 250 }}
+        style={{ maxWidth: 210, maxHeight: 230 }}
         cover={<img alt="example" src={imageUrl} />}
       >
         {/* <Meta title={title} /> */}

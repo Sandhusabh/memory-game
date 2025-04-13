@@ -53,7 +53,7 @@ function App() {
   };
 
   const handleCardClick = (key) => {
-    if (isGameOver()) {
+    if (isGameOver(key)) {
       resetGame();
     } else if (isLevelOver()) {
       increaseLevel();
