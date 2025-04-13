@@ -1,16 +1,14 @@
 import React from "react";
 import { Card } from "antd";
-const { Meta } = Card;
+import './Card.css'
 const ImageCard = ({ imageUrl, title }) => (
   <div className="card-container">
-    <Card
-        hoverable
-        style={{ maxWidth: 210, maxHeight: 230 }}
-        cover={<img alt="example" src={imageUrl} />}
-      >
-        {/* <Meta title={title} /> */}
-      </Card>
-  </div> 
+    <button className="button"> 
+      <div className="card-image">
+        <img height={230} width={200} src={imageUrl} alt={title} />
+      </div>
+    </button>
+  </div>
 );
 
 export default ImageCard;

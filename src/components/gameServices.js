@@ -14,26 +14,38 @@ async function fetchImages(numberOfImages, searchValue) {
 
 function getSearchOptions(){
   return [
-    "Mickey Mouse",
-    "Bugs Bunny",
-    "Homer Simpson",
-    "SpongeBob SquarePants",
-    "Tom and Jerry", 
-    "Scooby-Doo",
-    "Fred Flintstone",
-    "Bart Simpson",
-    "Daffy Duck",
-    "Donald Duck",
-    "Goofy",
-    "Popeye",
-    "Patrick Star",
-    "Rick Sanchez",
-    "Morty Smith",
-    "Velma Dinkley",
-    "Timmy Turner",
-    "Dexter",
-    "Bubbles"
+    "cat",
+    "dog",
+    "car",
+    "tree",
+    "apple",
+    "banana",
+    "flower",
+    "mountain",
+    "ocean",
+    "sun",
+    "moon",
+    "star",
+    "ball",
+    "ice cream",
+    "bird",
+    "fish",
+    "butterfly",
+    "train",
+    "rocket",
+    "guitar",
+    "book",
+    "clock",
+    "hat",
+    "shoe",
+    "robot",
+    "elephant",
+    "panda",
+    "cupcake",
+    "rainbow",
+    "cactus"
   ];
+  
 }
  
 
